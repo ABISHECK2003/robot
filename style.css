@@ -1,0 +1,206 @@
+
+.con{
+    height: 700px;
+    width: 1450px;
+    border: 1px solid black;
+}
+.head{
+    border: solid black ;
+    height: 145px;
+    width: 180px;
+    background-color: blue;
+    border-radius: 230px 230px 0px 0px;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 45px;
+}
+.e1{
+    border:solid white;
+    height: 15px;
+    width: 14px;
+    background-color: black;
+    border-radius: 120px 120px 120px 120px;
+    position: fixed;
+    margin-left: 40px;
+    margin-top: 100px;
+
+
+}
+.e2{
+    border:solid white;
+    height: 15px;
+    width: 14px;
+    background-color: black;
+    border-radius: 120px 120px 120px 120px;
+    position: fixed;
+    margin-left: 130px;
+    margin-top: 100px;
+
+
+}
+.body{
+    border:solid black;
+    height: 180px;
+    width: 180px;
+    background-color: red;
+    border-radius: 0px 0px 40px 40px;
+    position: fixed;
+    margin-left: 180px;
+    margin-top: 200px;
+
+
+}
+.l1{
+    height: 100px;
+    width: 40px;
+    background-color: red;
+    border-radius: 0px 0px 40px 40px;
+    position: fixed;
+    margin-left: 40px;
+    margin-top: 150px;
+
+
+}
+.l2{
+    height: 100px;
+    width: 40px;
+    background-color: red;
+    border-radius: 0px 0px 40px 40px;
+    position: fixed;
+    margin-left: 107px;
+    margin-top: 150px;
+
+
+}
+.h1{
+    border:solid black;
+    height: 110px;
+    width: 35px;
+    background-color: green;
+    border-radius: 40px 40px 40px 40px;
+    position: fixed;
+    margin-left: -49px;
+    margin-top: 20px;
+
+
+}
+.h2{
+    border:solid black;
+    height: 110px;
+    width: 35px;
+    background-color: green;
+    border-radius: 40px 40px 40px 40px;
+    position: fixed;
+    margin-left: 187px;
+    margin-top: 20px;
+}
+
+.con:hover .head{
+    
+
+    
+
+    animation: head 1s infinite;
+
+}
+.con:hover .h1{
+    
+    background-color: yellow;
+    animation: h1 1s infinite;
+
+}
+.con:hover .h2{
+    background-color:yellow;
+    
+    animation: h2 1s infinite;
+
+}
+.con:hover .l1{
+    background-color:yellow;
+    transform: rotate(10deg);
+    animation: l1 3s infinite;
+
+}
+.con:hover .l2{
+    background-color:yellow;
+    transform: rotate(10deg);
+    animation: l2 5s infinite;
+
+}
+/* .con:hover .body{
+    
+    border-radius:40%;
+    animation: body 2s infinite;
+
+} */
+@keyframes head{
+    0%{
+        transform: rotate(10deg);
+        
+
+        
+    }
+    25%{
+        transform: rotate(20deg);
+       
+    }
+    50%{
+        transform: rotate(30deg);
+        
+
+        
+
+        
+    }
+    75%{
+        transform: rotate(40deg);
+        
+    }
+    100%{
+        transform: rotate(50deg);
+        
+    }
+}
+
+@keyframes h1{
+    90%{
+        transform:rotate(90deg);
+        transform-origin: top;
+    }
+    100%{
+        transform:rotate(20deg);
+        transform-origin: top;
+    }
+}
+@keyframes h2{
+    90%{
+        transform:rotate(90deg);
+        transform-origin: top;
+    }
+    100%{
+        transform:rotate(20deg);
+        transform-origin: top;
+    }
+}
+@keyframes l1{
+    90%{
+        transform:rotate(90deg);
+        transform-origin: top;
+    }
+    100%{
+        transform:rotate(20deg);
+        transform-origin: top;
+    }
+}
+@keyframes l2{
+    90%{
+        transform: rotate(90deg);
+        transform-origin: top;
+
+    }
+    100%{
+        transform: rotate(20deg);
+        transform-origin: top;
+    }
+
+}
